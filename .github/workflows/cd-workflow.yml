@@ -55,7 +55,7 @@ jobs:
       - name: Download artifacts 
         uses: actions/download-artifact@master
         with:
-          name: webpack artifact
+          name: webpack artifacts
           path: public
       - name: Build Docker Image
         uses: docker/build-push-action@v1
